@@ -346,8 +346,6 @@
 /* Added to remove deprecation warnings from strcpy and fopen */
 #ifdef VS2010
 	#define _CRT_SECURE_NO_WARNINGS
-#else
-	#error "Warning! Deprecation warning, this code uses strcpy and fopen!"
 #endif
 
 #include <stdio.h>
